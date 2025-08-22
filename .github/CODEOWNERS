@@ -1,0 +1,41 @@
+# CODEOWNERS file for security-adapter-691
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/squad-apps @Armor-test/dept-notifications
+
+# Directory ownership
+/examples/ @Armor-test/team-frontend @Armor-test/grp-reporting
+/common/ @Armor-test/squad-database @Armor-test/team-notifications
+/spec/ @Armor-test/team-frontend @Armor-test/dept-ui @Armor-test/squad-search
+/static/ @Armor-test/grp-integration @Armor-test/squad-product
+/views/ @Armor-test/team-governance @Armor-test/dept-data
+/hooks/ @Armor-test/grp-ui @Armor-test/dept-identity @Armor-test/grp-storage
+/plugins/ @Armor-test/grp-reporting @Armor-test/team-reporting @Armor-test/dept-automation
+/pages/ @Armor-test/squad-mobile @Armor-test/team-reporting @Armor-test/dept-security
+/test/ @Armor-test/squad-cache @Armor-test/dept-ui
+/migrations/ @Armor-test/grp-api @Armor-test/unit-governance
+/src/ @Armor-test/squad-apps @Armor-test/unit-design
+/core/ @Armor-test/grp-storage @Armor-test/dept-test @Armor-test/squad-payments
+
+# File type ownership
+*.xml @Armor-test/dept-test @Armor-test/grp-payments
+*.rb @Armor-test/team-reporting @Armor-test/team-governance
+*.gradle @Armor-test/team-reporting @Armor-test/dept-reliability @Armor-test/grp-ui
+*.php @Armor-test/unit-design @Armor-test/unit-cloud
+*.json @Armor-test/squad-product @Armor-test/squad-ux
+*.sql @Armor-test/grp-api @Armor-test/dept-reporting @Armor-test/grp-ui
+*.go @Armor-test/squad-tooling @Armor-test/dept-security @Armor-test/dept-notifications
+*.graphql @Armor-test/dept-release @Armor-test/team-notifications @Armor-test/team-reporting
+*.tsx @Armor-test/unit-devops @Armor-test/dept-identity
+*.md @Armor-test/dept-reporting @Armor-test/dept-reliability
+*.scala @Armor-test/dept-automation @Armor-test/team-research
+*.swift @Armor-test/squad-apps @Armor-test/team-notifications
+*.proto @Armor-test/grp-payments @Armor-test/dept-reliability
+*.h @Armor-test/squad-performance @Armor-test/squad-apps
+*.lock @Armor-test/squad-frontend @Armor-test/grp-api @Armor-test/dept-api
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
